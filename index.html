@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Destination Tracker</h1>
+        <h2>Add a Person's Destinations:</h2>
+        <form id="new-persons-destinations">
+            <label for="new-location">Location</label>
+            <input type="text" id="new-location">
+            <label for="new-landmark">Landmark</label>
+            <input type="text" id="new-landmark">
+            <label for="new-timeOfYear">timeOfYear</label>
+            <input type="text" id="new-timeOfYear">
+            <label for="new-notes">Notes</label>
+            <input type="text" id="new-notes">
+            <button type="submit">Add</button>
+        </form>
+
+        <h2>Person's Destinations</h2>
+        <ul id="persons-destinations">
+        </ul>
+
+        <div id="show-persons-destinations">
+            <!-- <p>Location: <span class="location-name"></span></p>
+            <p>Landmark: <span class="landmark-name"></span></p>
+            <p>timeOfYear: <span class="timeOfYear-name"></span></p>
+            <div id="buttons">
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
