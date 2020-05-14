@@ -25,8 +25,8 @@ Git (optional but recommended)
 
 ### Setting up a Development Environment
 
-1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-triangle-tracker
-   or clone using the repository link: https://github.com/kentpmckinney/epi-triangle-tracker.git
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-destinations
+   or clone using the repository link: https://github.com/kentpmckinney/epi-destinations.git
 2. Navigate to the folder location of the source files in Finder or in the Terminal
 3. Open the file 'index.html' in a web browser
 
